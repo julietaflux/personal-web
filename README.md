@@ -1,4 +1,4 @@
-# jules-web
+# JulietaFlux
 
 ## Project setup
 ```
