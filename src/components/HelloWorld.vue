@@ -9,13 +9,15 @@
     </p>
     <p>
       I love
-      <span class="highligh">debugging</span>, walking long distances, drinking a lot of water, solving Rubik's cube, low-carb cooking, elbow-hitting shakers, being friends with non-human animals and noticing visual/auditory/olfactory things that appeal to me.
+      <span class="highligh">debugging</span>, drawing, growing moss gardens, walking long distances, drinking a lot of water, solving Rubik's cube, low-carb cooking, elbow-hitting shakers, being friends with non-human animals and noticing visual/auditory/olfactory things that appeal to me.
     </p>
     <p>
-      Oh, I almost forgot, I am a software developer and recently discovered
+      Oh, I almost forgot, I am a
+      <span class="highligh">software developer</span> and recently discovered
+      <span class="highligh">generative art</span> makes me tick. My main goal is to make this a better world through my actions impact, so please contact me
       <span
         class="highligh"
-      >generative art</span> makes me tick.
+      >only</span> if you really think we can potentiate each other.
     </p>
 
     <v-col cols="12" class="text-center display-inline">
@@ -42,13 +44,23 @@ export default {
       {
         icon: "mdi-github-circle",
         text: "github",
-        href: "https://github.com/julietaflux"
+        href: "https://github.com/julietaflux/"
       },
       {
         icon: "mdi-at",
         text: "mail",
         href:
           "mailto:julietaflux@gmail.com?subject=Hey, I saw your web page and..."
+      },
+      {
+        icon: "mdi-sprout",
+        text: "s33d",
+        href: "https://www.s33d.art/"
+      },
+      {
+        icon: "mdi-instagram",
+        text: "instagram",
+        href: "https://www.instagram.com/julietaflux/"
       }
     ]
   })
@@ -57,8 +69,8 @@ export default {
 
 <style lang="sass">
   .highligh
-    background-color: rgba(255, 102, 255,.25)
-    border: 1px rgba(255, 102, 255,.25)
+    background-color: rgba(255, 102, 255,.35)
+    border: 1px rgba(255, 102, 255,.35)
     padding-right: 5px
     padding-left: 5px
 </style>
