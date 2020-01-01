@@ -17,7 +17,7 @@
       <span class="highligh">generative art</span> makes me tick. My main goal is to make this a better world through my actions impact, so please contact me
       <span
         class="highligh"
-      >only</span> if you really think we can potentiate each other.
+      >only</span> if you really feel we can potentiate each other.
     </p>
 
     <v-col cols="12" class="text-center display-inline">
