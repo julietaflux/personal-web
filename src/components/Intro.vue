@@ -28,7 +28,7 @@
       </row>
     </v-col>
 
-    <p class="footer text-center caption font-weight-light">Pssst! Check the console.</p>
+    <p class="footer text-center caption font-weight-light">PSST! Check the console.</p>
   </v-container>
 </template>
 
