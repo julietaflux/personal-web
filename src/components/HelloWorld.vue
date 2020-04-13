@@ -1,6 +1,6 @@
 <template>
   <v-container fluid class="text-justify font-weight-light">
-    <p class="display-1 text-center">Hi there, this is Jules</p>
+    <p class="display-1 text-center">Hi there, this is Julieta</p>
     <p>
       I am a health nut, nature bound and notoriously good at self-discipline. I tend to process things in
       <span
@@ -9,12 +9,11 @@
     </p>
     <p>
       I love
-      <span class="highligh">debugging</span>, drawing, growing moss gardens, walking long distances, drinking a lot of water, solving Rubik's cube, low-carb cooking, elbow-hitting shakers, being friends with non-human animals and noticing visual/auditory/olfactory things that appeal to me.
+      <span class="highligh">debugging</span>, walking long distances, drinking a lot of water and being friends with non-human animals.
     </p>
     <p>
-      Oh, I almost forgot, I am a
-      <span class="highligh">software developer</span> and recently discovered
-      <span class="highligh">generative art</span> makes me tick. My main goal is to make this a better world through my actions impact, so please contact me
+      I am a
+      <span class="highligh">software developer</span> and my main goal is to make this a better world through my actions impact, so please contact me
       <span
         class="highligh"
       >only</span> if you really feel we can potentiate each other.
@@ -42,7 +41,7 @@ export default {
         href: "https://www.linkedin.com/in/julietaflux/"
       },
       {
-        icon: "mdi-github-circle",
+        icon: "mdi-github",
         text: "github",
         href: "https://github.com/julietaflux/"
       },
@@ -68,9 +67,9 @@ export default {
 </script>
 
 <style lang="sass">
-  .highligh
-    background-color: rgba(255, 102, 255,.35)
-    border: 1px rgba(255, 102, 255,.35)
-    padding-right: 5px
-    padding-left: 5px
+.highligh
+  background-color: rgba(255, 102, 0,.65)
+  border: 1px rgba(255, 102, 0,.65)
+  padding-right: 5px
+  padding-left: 5px
 </style>
