@@ -73,7 +73,8 @@ export default {
       frameworks,
       environments,
       methodologies,
-      versionControl
+      versionControl,
+      learning
     ) {
       this.Languajes = languajes;
       this.Databases = dataBases;
@@ -81,18 +82,20 @@ export default {
       this.Environments = environments;
       this.Methodologies = methodologies;
       this.VersionControl = versionControl;
+      this.Learning = learning;
     },
     Greet() {
       console.info("Hey, glad you're here!");
       console.info("You may be wondering what my skills are, so...");
 
       var skills = new this.Skills(
-        "C#, C++, JavaScript, TypeScript, Rust, CSS, SASS, GLSL/HLSL",
-        "SQL, MySQL, MongoDB, Redis",
+        "C#, C++, JavaScript, TypeScript, CSS, SASS",
+        "SQL, MySQL, MongoDB",
         ".NET Framework/Core, Vue.js, React.js",
         "WebGL, OpenGL, Node.js",
         "Agile, Kanban",
-        "Git, SVN"
+        "Git, SVN",
+        "Rust, GLSL/HLSL, Redis"
       );
 
       console.table(skills);
