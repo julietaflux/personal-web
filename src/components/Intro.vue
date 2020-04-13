@@ -102,7 +102,7 @@ export default {
       console.log(
         "🚀 MercadoTrack - https://mercadotrack.com/" +
           "\n" +
-          "Platform for helping Mercado Libre's users track article's price fluctuations."
+          "Platform for helping Mercado Libre's users tracking article's price fluctuations over time."
       );
       console.log(
         "🐈 Refugiar - https://refugiar.org/" +
