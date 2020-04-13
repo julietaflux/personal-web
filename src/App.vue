@@ -4,7 +4,7 @@
       <v-container class="fill-height justify-center" fluid>
         <v-row align="center" justify="center">
           <v-col cols="12" sm="8" md="4">
-            <HelloWorld />
+            <Intro />
           </v-col>
         </v-row>
       </v-container>
@@ -13,13 +13,13 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import Intro from "./components/Intro";
 
 export default {
   name: "App",
 
   components: {
-    HelloWorld
+    Intro
   },
 
   data: () => ({
