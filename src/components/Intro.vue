@@ -110,7 +110,7 @@ export default {
       console.log(
         "🐈 Refugiar - https://refugiar.org/" +
           "\n" +
-          "Platform for helping animals's refuges with adoptions, improve diffusion and receive doantions connecting the organizations, adoptants and volunteers in a simple and effective way."
+          "Platform for helping animals's refuges with adoptions, improve diffusion and receive donations connecting the organizations, adoptants and volunteers in a simple and effective way."
       );
       console.log(
         "🌱 S33D - https://s33d.art/" + "\n" + "Generative art project."
