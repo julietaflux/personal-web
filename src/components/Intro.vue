@@ -93,8 +93,8 @@ export default {
         "SQL, MySQL, MongoDB",
         ".NET Framework/Core, Vue.js, React.js",
         "WebGL, OpenGL, Node.js",
-        "Agile, Kanban",
-        "Git, SVN",
+        "Agile, Kanban, SCRUM",
+        "Git, GitHub, GitLab, SVN",
         "Rust, GLSL/HLSL, Redis"
       );
 
