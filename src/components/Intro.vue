@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="text-justify font-weight-light">
+  <v-container fluid class="text-center font-weight-light">
     <p class="display-1 text-center">Hi there, this is Julieta</p>
     <p>
       I am a health nut, nature bound and notoriously good at self-discipline. I tend to process things in
@@ -126,8 +126,8 @@ export default {
 
 <style lang="sass">
 .highligh
-  background-color: rgba(255, 102, 0,.65)
-  border: 1px rgba(255, 102, 0,.65)
+  background-color: rgba(148, 79, 226,.8)
+  border: 1px rgba(148, 79, 226,.8)
   padding-right: 5px
   padding-left: 5px
 
