@@ -5,25 +5,48 @@
       I am a health nut, nature bound and notoriously good at self-discipline. I tend to process things in
       <span
         class="highligh"
-      >logical</span> rather than emotional ways and like to categorize information, which makes some aspects of life easier (and others trickier).
+      >
+        <span>logical</span>
+      </span> rather than emotional ways and like to categorize information, which makes some aspects of life easier (and others trickier).
     </p>
     <p>
       I love
-      <span class="highligh">debugging</span>, walking long distances, drinking a lot of water and being friends with non-human animals.
+      <span class="highligh">
+        <span>debugging</span>
+      </span>, walking long distances, drinking a lot of water and being friends with non-human animals.
     </p>
     <p>
       I am a
-      <span class="highligh">software developer</span> and
-      <span class="highligh">information systems technician</span>, my main goal is to make this a better world through my actions impact, so please contact me
+      <span class="highligh">
+        <span>software developer</span>
+      </span> and
+      <span class="highligh">
+        <span>information systems technician</span>
+      </span>, my main goal is to make this a better world through my actions impact, so please contact me
       <span
         class="highligh"
-      >only</span> if you really feel we can potentiate each other.
+      >
+        <span>only</span>
+      </span> if you really feel we can potentiate each other.
     </p>
 
     <v-col cols="12" class="text-center display-inline">
       <row v-for="item in links" v-bind:key="item.text">
-        <v-btn text icon color="light" :href="item.href" target="_blank">
-          <v-icon>{{ item.icon }}</v-icon>
+        <v-btn
+          class="icon"
+          text
+          icon
+          color="light"
+          :href="item.href"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div v-if="item.icon">
+            <v-icon>{{ item.icon }}</v-icon>
+          </div>
+          <div v-else>
+            <v-img width="30" :src="item.img"></v-img>
+          </div>
         </v-btn>
       </row>
     </v-col>
@@ -34,6 +57,8 @@
 
 
 <script>
+import mtIcon from "../assets/mt.png";
+
 export default {
   name: "Intro",
   data: () => ({
@@ -49,10 +74,15 @@ export default {
         href: "https://github.com/julietaflux/"
       },
       {
-        icon: "mdi-at",
+        icon: "mdi-email",
         text: "mail",
         href:
           "mailto:julietaflux@gmail.com?subject=Hey, I saw your web page and..."
+      },
+      {
+        icon: "mdi-at",
+        text: "twitter",
+        href: "https://twitter.com/fluxirl"
       },
       {
         icon: "mdi-sprout",
@@ -63,6 +93,11 @@ export default {
         icon: "mdi-instagram",
         text: "instagram",
         href: "https://www.instagram.com/julietaflux/"
+      },
+      {
+        img: mtIcon,
+        text: "mercadotrack",
+        href: "https://mercadotrack.com"
       }
     ]
   }),
@@ -92,15 +127,15 @@ export default {
         "C#, C++, JavaScript, TypeScript, CSS, SASS",
         "SQL, MySQL, MongoDB",
         ".NET Framework/Core, Vue.js, React.js",
-        "WebGL, OpenGL, Node.js",
+        "Node.js",
         "Agile, Kanban, SCRUM",
         "Git, GitHub, GitLab, SVN",
-        "Rust, GLSL/HLSL, Redis"
+        "Rust, p5.js, WebGL, OpenGL, Redis"
       );
 
       console.table(skills);
       console.info(
-        "I`m currently working in some personal projects too:" + "\n"
+        "I`m currently working in some personal projects as well:" + "\n"
       );
       console.log(
         "🚀 MercadoTrack - https://mercadotrack.com/" +
@@ -126,10 +161,28 @@ export default {
 
 <style lang="sass">
 .highligh
-  background-color: rgba(148, 79, 226,.8)
-  border: 1px rgba(148, 79, 226,.8)
+  cursor: default
+  position: relative
+  border: 1px rgba(148, 79, 226, .8)
   padding-right: 5px
   padding-left: 5px
+  span
+    position: relative
+    z-index: 5
+  &:hover
+    &::before
+      transform: rotateZ(-45deg)
+  &::before
+    z-index: 0
+    transition: all 1s
+    transition-timing-function: cubic-bezier(.49,.67,.78,.2)
+    content: ""
+    background-color: rgba(148, 79, 226,.8)
+    position: absolute
+    height: 5px
+    right: 0
+    left: 0
+    bottom: 0
 
 .footer
   position: fixed
@@ -137,4 +190,7 @@ export default {
   bottom: 0
   width: 100%
   text-align: center
+
+.icon
+  margin: 2px
 </style>
