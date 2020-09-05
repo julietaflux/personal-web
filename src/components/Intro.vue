@@ -1,13 +1,13 @@
 <template>
   <v-container fluid class="text-center font-weight-light">
-    <p class="display-1 text-center">Hi there, this is Julieta</p>
+    <p class="display-1 text-center">This is Jules</p>
     <p>
       I am a health nut, nature bound and notoriously good at self-discipline. I tend to process things in
       <span
         class="highligh"
       >
         <span>logical</span>
-      </span> rather than emotional ways and like to categorize information, which makes some aspects of life easier (and others trickier).
+      </span> rather than emotional ways and like to categorize information.
     </p>
     <p>
       I love
@@ -16,13 +16,13 @@
       </span>, walking long distances, drinking a lot of water and being friends with non-human animals.
     </p>
     <p>
-      I am a
+      I study
+      <span class="highligh">
+        <span>Art Criticism</span>
+      </span> and I am a
       <span class="highligh">
         <span>software developer</span>
-      </span> and
-      <span class="highligh">
-        <span>information systems technician</span>
-      </span>, my main goal is to make this a better world through my actions impact, so please contact me
+      </span> and IT as well, my main goal is to make this a better world through my actions impact, so please contact me
       <span
         class="highligh"
       >
@@ -171,7 +171,8 @@ export default {
     z-index: 5
   &:hover
     &::before
-      transform: rotateZ(-45deg)
+      margin-top: 5px
+      height: 18px
   &::before
     z-index: 0
     transition: all 1s
