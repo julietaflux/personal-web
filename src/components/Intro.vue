@@ -31,7 +31,7 @@
       </span> and I am a
       <span class="highligh">
         <span>software developer</span>
-      </span> and IT as well, my main goal is to make this a better world through my actions impact, so please contact me
+      </span> and IT as well, my main goal is to make this a better world and improve people's life quality through my actions impact, so please contact me
       <span
         class="highligh"
       >
