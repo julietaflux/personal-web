@@ -14,6 +14,15 @@
       <span class="highligh">
         <span>debugging</span>
       </span>, walking long distances, drinking a lot of water and being friends with non-human animals.
+      I live according to a combination between
+      <span
+        class="highligh"
+      >
+        <span>Buddhism</span>
+      </span> and
+      <span class="highligh">
+        <span>Modern Stoicism</span>
+      </span> values and like to walk my path along with people who respect the four cardinal virtues.
     </p>
     <p>
       I study
@@ -27,7 +36,7 @@
         class="highligh"
       >
         <span>only</span>
-      </span> if you really feel we can potentiate each other.
+      </span> if you really feel we can potentiate each other and make the world a better place.
     </p>
 
     <v-col cols="12" class="text-center display-inline">

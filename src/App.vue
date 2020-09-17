@@ -3,7 +3,7 @@
     <v-content>
       <v-container class="fill-height justify-center" fluid>
         <v-row align="center" justify="center">
-          <v-col cols="12" sm="8" md="4">
+          <v-col cols="12" sm="8" md="4" lg="6">
             <Intro />
           </v-col>
         </v-row>
