@@ -115,31 +115,40 @@ export default {
       languajes,
       dataBases,
       frameworks,
+      designFrameworks,
+      paradigms,
       environments,
       methodologies,
       versionControl,
-      learning
+      learning,
+      others,
     ) {
       this.Languajes = languajes;
       this.Databases = dataBases;
       this.Frameworks = frameworks;
+      this.DesignFrameworks = designFrameworks;
+      this.Paradigms = paradigms;
       this.Environments = environments;
       this.Methodologies = methodologies;
       this.VersionControl = versionControl;
       this.Learning = learning;
+      this.Others = others;
     },
     Greet() {
-      console.info("Hey, glad you're here!");
-      console.info("You may be wondering what my skills are, so...");
+      console.info("Glad you're here!");
+      console.info("You may be wondering what my stack is");
 
       var skills = new this.Skills(
         "C#, C++, JavaScript, TypeScript, CSS, SASS",
         "SQL, MySQL, MongoDB",
-        ".NET Framework/Core, Vue.js, React.js",
+        ".NET Framework/Core, Vue.js, React.js, React Native",
+        "Vuetify, Bootstrap, BootstrapVue, Bulma, Tailwindcss",
+        "Functional, OOP",
         "Node.js",
         "Agile, Kanban, SCRUM",
-        "Git, GitHub, GitLab, SVN",
-        "Rust, p5.js, WebGL, OpenGL, Redis"
+        "Git, Git Flow, GitHub, GitLab, SVN",
+        "Rust, p5.js, WebGL, OpenGL, Redis",
+        "Linq"
       );
 
       console.table(skills);
