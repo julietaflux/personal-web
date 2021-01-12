@@ -2,11 +2,7 @@
   <v-app>
     <v-content>
       <v-container class="fill-height justify-center" fluid>
-        <v-row align="center" justify="center">
-          <v-col cols="12" sm="8" md="4" lg="6">
-            <Intro />
-          </v-col>
-        </v-row>
+        <router-view></router-view>
       </v-container>
     </v-content>
   </v-app>
@@ -18,12 +14,10 @@ import Intro from "./components/Intro";
 export default {
   name: "App",
 
-  components: {
-    Intro
-  },
+  components: {},
 
   data: () => ({
     //
-  })
+  }),
 };
 </script>

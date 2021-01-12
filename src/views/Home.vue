@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <Intro msg="Welcome to Your Vue.js App" />
+    <Intro />
   </div>
 </template>
 
@@ -12,7 +11,7 @@ import Intro from "@/components/Intro.vue";
 export default {
   name: "home",
   components: {
-    Intro
-  }
+    Intro,
+  },
 };
 </script>

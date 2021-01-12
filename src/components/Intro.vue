@@ -1,69 +1,77 @@
 <template>
-  <v-container fluid class="text-center font-weight-light">
-    <p class="display-1 text-center">This is Jules</p>
-    <p>
-      I am a health nut, nature bound and notoriously good at self-discipline. I tend to process things in
-      <span
-        class="highligh"
-      >
-        <span>logical</span>
-      </span> rather than emotional ways and like to categorize information.
-    </p>
-    <p>
-      I love
-      <span class="highligh">
-        <span>debugging</span>
-      </span>, walking long distances, drinking a lot of water and being friends with non-human animals.
-      I live according to a combination between
-      <span
-        class="highligh"
-      >
-        <span>Buddhism</span>
-      </span> and
-      <span class="highligh">
-        <span>Modern Stoicism</span>
-      </span> values and like to walk my path along with people who respect the four cardinal virtues.
-    </p>
-    <p>
-      I study
-      <span class="highligh">
-        <span>Art Criticism</span>
-      </span> and I am a
-      <span class="highligh">
-        <span>software developer</span>
-      </span> and IT as well, my main goal is to make this a better world and improve people's life quality through my actions impact, so please contact me
-      <span
-        class="highligh"
-      >
-        <span>only</span>
-      </span> if you really feel we can potentiate each other and make the world a better place.
-    </p>
+  <v-row align="center" justify="center">
+    <v-col cols="12" sm="8" md="4" lg="6">
+      <v-container fluid class="text-center font-weight-light">
+        <p class="display-1 text-center">This is Jules</p>
+        <p>
+          I am a health nut, nature bound and notoriously good at
+          self-discipline. I tend to process things in
+          <span class="highligh">
+            <span>logical</span>
+          </span>
+          rather than emotional ways and like to categorize information.
+        </p>
+        <p>
+          I love
+          <span class="highligh"> <span>debugging</span> </span>, walking long
+          distances, drinking a lot of water and being friends with non-human
+          animals. I live according to a combination between
+          <span class="highligh">
+            <span>Buddhism</span>
+          </span>
+          and
+          <span class="highligh">
+            <span>Modern Stoicism</span>
+          </span>
+          values and like to walk my path along with people who respect the four
+          cardinal virtues.
+        </p>
+        <p>
+          I study
+          <span class="highligh">
+            <span>Art Criticism</span>
+          </span>
+          and I am a
+          <span class="highligh">
+            <span>software developer</span>
+          </span>
+          and IT as well, my main goal is to make this a better world and
+          improve people's life quality through my actions impact, so please
+          contact me
+          <span class="highligh">
+            <span>only</span>
+          </span>
+          if you really feel we can potentiate each other and make the world a
+          better place.
+        </p>
 
-    <v-col cols="12" class="text-center display-inline">
-      <row v-for="item in links" v-bind:key="item.text">
-        <v-btn
-          class="icon"
-          text
-          icon
-          color="light"
-          :href="item.href"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div v-if="item.icon">
-            <v-icon>{{ item.icon }}</v-icon>
-          </div>
-          <div v-else>
-            <v-img width="30" :src="item.img"></v-img>
-          </div>
-        </v-btn>
-      </row>
+        <v-col cols="12" class="text-center display-inline">
+          <row v-for="item in links" v-bind:key="item.text">
+            <v-btn
+              class="icon"
+              text
+              icon
+              color="light"
+              :href="item.href"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div v-if="item.icon">
+                <v-icon>{{ item.icon }}</v-icon>
+              </div>
+              <div v-else>
+                <v-img width="30" :src="item.img"></v-img>
+              </div>
+            </v-btn>
+          </row>
+        </v-col>
+        <p class="footer text-center caption font-weight-light">
+          PSST! Check the console.
+        </p>
+      </v-container>
     </v-col>
-
-    <p class="footer text-center caption font-weight-light">PSST! Check the console.</p>
-  </v-container>
+  </v-row>
 </template>
-
 
 <script>
 import mtIcon from "../assets/mt.png";
@@ -75,40 +83,40 @@ export default {
       {
         icon: "mdi-linkedin",
         text: "linked-in",
-        href: "https://www.linkedin.com/in/julietaflux/"
+        href: "https://www.linkedin.com/in/julietaflux/",
       },
       {
         icon: "mdi-github",
         text: "github",
-        href: "https://github.com/julietaflux/"
+        href: "https://github.com/julietaflux/",
       },
       {
         icon: "mdi-email",
         text: "mail",
         href:
-          "mailto:julietaflux@gmail.com?subject=Hey, I saw your web page and..."
+          "mailto:julietaflux@gmail.com?subject=Hey, I saw your web page and...",
       },
       {
         icon: "mdi-at",
         text: "twitter",
-        href: "https://twitter.com/fluxirl"
+        href: "https://twitter.com/fluxirl",
       },
       {
         icon: "mdi-sprout",
         text: "s33d",
-        href: "https://www.s33d.art/"
+        href: "https://www.s33d.art/",
       },
       {
         icon: "mdi-instagram",
         text: "instagram",
-        href: "https://www.instagram.com/julietaflux/"
+        href: "https://www.instagram.com/julietaflux/",
       },
       {
         img: mtIcon,
         text: "mercadotrack",
-        href: "https://mercadotrack.com"
-      }
-    ]
+        href: "https://mercadotrack.com",
+      },
+    ],
   }),
   methods: {
     Skills(
@@ -121,7 +129,7 @@ export default {
       methodologies,
       versionControl,
       learning,
-      others,
+      others
     ) {
       this.Languajes = languajes;
       this.Databases = dataBases;
@@ -168,12 +176,12 @@ export default {
       console.log(
         "🌱 S33D - https://s33d.art/" + "\n" + "Generative art project."
       );
-    }
+    },
   },
   mounted() {
     console.clear();
     this.Greet();
-  }
+  },
 };
 </script>
 
