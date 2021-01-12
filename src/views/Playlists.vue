@@ -14,17 +14,17 @@
           ></iframe>
         </div>
         <v-row>
-          <template v-for="link in links" class="d-flex">
-            <v-col sm="12" md="6" lg="6" :key="link" class="my-5">
+          <template v-for="link in links" class="d-flex my-5">
+            <v-col sm="12" md="12" lg="6" :key="link">
               <PlaylistCard
                 v-bind:title="link.title"
                 v-bind:description="link.description"
               />
             </v-col>
-            <v-col sm="12" md="6" lg="6" :key="link" class="my-5">
+            <v-col sm="12" md="12" lg="6" :key="link">
               <iframe
                 :src="link.url"
-                width="400"
+                width="450"
                 height="230"
                 frameborder="0"
                 allowtransparency="true"
