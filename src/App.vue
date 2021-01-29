@@ -1,23 +1,28 @@
 <template>
-  <v-app>
-    <v-content>
-      <v-container class="fill-height justify-center" fluid>
-        <router-view></router-view>
-      </v-container>
-    </v-content>
-  </v-app>
+  <div
+    class="flex items-center px-6 py-16 dark:bg-gray-800 dark:text-white md:px-10 lg:px-48 min-h-full"
+  >
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
-import Intro from "./components/Intro";
-
 export default {
   name: "App",
-
   components: {},
-
-  data: () => ({
-    //
-  }),
 };
 </script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+</style>

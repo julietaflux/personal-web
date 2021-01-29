@@ -1,14 +1,26 @@
-import Vue from "vue";
+import { createApp } from "vue";
+import { createRouter, createWebHistory } from "vue-router";
 import App from "./App.vue";
-import router from "./router";
-import store from "./store";
-import vuetify from "./plugins/vuetify";
+import Home from "./views/Home.vue";
+import Music from "./views/Music.vue";
+import "./index.css";
 
-Vue.config.productionTip = false;
+const routes = [
+  {
+    path: "/",
+    component: Home,
+  },
+  {
+    path: "/music",
+    component: Music,
+  },
+];
 
-new Vue({
-  router,
-  store,
-  vuetify,
-  render: h => h(App)
-}).$mount("#app");
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
+});
+
+const app = createApp(App);
+app.use(router);
+app.mount("#app");
