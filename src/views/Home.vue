@@ -1,6 +1,6 @@
 <template>
   <div class="m-auto text-center">
-    <p class="text-xl font-semibold">This is Jules (WIP)</p>
+    <p class="text-xl font-semibold">This is Jules</p>
     <div class="my-5">
       <p>
         I am a health nut, nature bound and notoriously good at self-discipline.
@@ -8,27 +8,43 @@
         to categorize information.
       </p>
       <p>
-        I love debugging , walking long distances, drinking a lot of water and
-        being friends with non-human animals. I live according to a combination
-        between Buddhism and Modern Stoicism values and like to walk my path
-        along with people who respect the four cardinal virtues.
+        I make a lot of playlists and my hobbies include debugging, walking long
+        distances, drinking a lot of water and being friends with non-human
+        animals. I live according to a combination between
+        <span class="font-semibold">Buddhism</span> and
+        <span class="font-semibold">Modern Stoicism</span> values and like to
+        walk my path along with people who respect the four cardinal virtues.
       </p>
       <p>
-        I study Art Criticism and I am a software developer and IT as well, my
-        main goal is to make this a better world and improve human and non human
-        animals's life quality through my actions impact, so please contact me
-        only if you really feel we can potentiate each other and make the world
-        a better place.
+        I study <span class="font-semibold">Art Criticism</span> and I am a
+        software developer and IT as well, my main goal is to make this a better
+        world and improve human and non human animals's life quality through my
+        actions impact, so please contact me
+        <span class="font-semibold">only</span> if you really feel we can
+        potentiate each other and make the world a better place.
       </p>
     </div>
-    <ul class="flex justify-center">
-      <li v-for="link in socialLinks" v-bind:key="link.text">
-        <span class="mx-2">
-          {{ link.text }}
-        </span>
-      </li>
-    </ul>
-    <p class="mt-32">
+    <div class="mt-5 mb-10">
+      <ul class="flex justify-center">
+        <li v-for="link in socialLinks" v-bind:key="link.text">
+          <a :href="link.href" target="_blank" rel="noopener noreferrer">
+            <span class="mx-2 text-sm font-bold">
+              {{ link.text }}
+            </span>
+          </a>
+        </li>
+      </ul>
+      <ul class="flex justify-center">
+        <li v-for="link in proyectsLinks" v-bind:key="link.text">
+          <a :href="link.href" target="_blank" rel="noopener noreferrer">
+            <span class="mx-2 text-sm font-bold">
+              {{ link.text }}
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <p class="text-xs">
       PSST! Check the console.
     </p>
   </div>
@@ -36,11 +52,13 @@
 
 <script>
 import socialLinks from "../data/socialLinks";
+import proyectsLinks from "../data/proyectsLinks";
 
 export default {
   name: "Intro",
   data: () => ({
     socialLinks: socialLinks,
+    proyectsLinks: proyectsLinks,
   }),
   methods: {
     Skills(

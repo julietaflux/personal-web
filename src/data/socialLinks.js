@@ -17,16 +17,8 @@ const links = [
     href: "https://twitter.com/fluxirl",
   },
   {
-    text: "S33D",
-    href: "https://www.s33d.art/",
-  },
-  {
     text: "Instagram",
     href: "https://www.instagram.com/julietaflux/",
-  },
-  {
-    text: "Mercadotrack",
-    href: "https://mercadotrack.com",
   },
 ];
 
