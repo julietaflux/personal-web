@@ -19,7 +19,7 @@ const playlists = [
       "Climax, Gaspar Noé's first French-language film since Irréversible, a woozy, pyschological-horror story about a dance troupe who drink sangria spiked with LSD. The film premiered at Cannes, and should receive a release in the US later in 2018.",
     tags: ["various artists", "movie inspired", "soundtrack"],
     artists:
-      "GAry Numan, Cerrone, Patrick Hernandez, M/A/A/R/S, Lil' Louis and more",
+      "Gary Numan, Cerrone, Patrick Hernandez, M/A/A/R/S, Lil' Louis and more",
   },
   {
     title: "Fucking Vol. I",
