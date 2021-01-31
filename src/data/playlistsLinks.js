@@ -7,7 +7,19 @@ const playlists = [
     image: "ddwp.png",
     description: "No description available yet.",
     tags: ["various artists", "movie inspired", "soundtrack"],
-    artists: "Sin Cos Tan, Mr. Flagio, Petter & The Magician, and more.",
+    artists: "Sin Cos Tan, Mr. Flagio, Petter & The Magician and more.",
+  },
+  {
+    title: "Climax",
+    url: "https://open.spotify.com/embed/playlist/2AJb4MlPMtUOENuiYDR7Gn",
+    publicUrl:
+      "https://open.spotify.com/playlist/2AJb4MlPMtUOENuiYDR7Gn?si=1SxbgeW2RsSk26jPOSkI1g",
+    image: "climax.png",
+    description:
+      "Climax, Gaspar Noé's first French-language film since Irréversible, a woozy, pyschological-horror story about a dance troupe who drink sangria spiked with LSD. The film premiered at Cannes, and should receive a release in the US later in 2018.",
+    tags: ["various artists", "movie inspired", "soundtrack"],
+    artists:
+      "GAry Numan, Cerrone, Patrick Hernandez, M/A/A/R/S, Lil' Louis and more",
   },
   {
     title: "Fucking Vol. I",
@@ -18,7 +30,7 @@ const playlists = [
     description: "No description available yet.",
     tags: ["disco", "historical", "various artists"],
     artists:
-      "The Wallflowers, 10cc, The Cure, Interpol, Eric Clapton, and more.",
+      "The Wallflowers, 10cc, The Cure, Interpol, Eric Clapton and more.",
   },
   {
     title: "Fucking Vol. II",
@@ -29,7 +41,7 @@ const playlists = [
     description: "No description available yet.",
     tags: ["disco", "historical", "various artists"],
     artists:
-      "Hozier, Blonder, alt-J, Royal Blood, Seinabo Say, Interpol, and more.",
+      "Hozier, Blonder, alt-J, Royal Blood, Seinabo Say, Interpol and more.",
   },
   {
     title: "Disco And Sexuality Vol. I",
@@ -40,7 +52,7 @@ const playlists = [
     description: "No description available yet.",
     tags: ["disco", "historical", "various artists"],
     artists:
-      "Beete Midler, The Equals, Bill Withers, Billy Sha-Rae, Marvin Gaye, and more.",
+      "Beete Midler, The Equals, Bill Withers, Billy Sha-Rae, Marvin Gaye and more.",
   },
   {
     title: "Disco And Sexuality Vol. II",
@@ -50,7 +62,7 @@ const playlists = [
     image: "noart.png",
     description: "No description available yet.",
     tags: ["disco", "historical", "various artists"],
-    artists: "Loose Joints, Donna Summer, Sylvester, NYC Peech Boys, and more.",
+    artists: "Loose Joints, Donna Summer, Sylvester, NYC Peech Boys and more.",
   },
   {
     title: "Disco And Sexuality Vol. III",
@@ -60,7 +72,7 @@ const playlists = [
     image: "noart.png",
     description: "No description available yet.",
     tags: ["disco", "historical", "various artists"],
-    artists: "Dan Hartman, Miquel Brown, Sandi Sheldon, Sylvester, and more.",
+    artists: "Dan Hartman, Miquel Brown, Sandi Sheldon, Sylvester and more.",
   },
   {
     title: "Disco Foundations Vol. I",
