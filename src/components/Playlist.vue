@@ -15,7 +15,7 @@
       <div class="w-full md:w-auto">
         <img
           v-if="this.showArt"
-          class="p-10 md:p-0 md:w-art-medium lg:w-art-large"
+          class="p-10 md:p-0 md:w-art-medium lg:w-art-large;"
           :src="`/art/${playlist.image}`"
         />
 
