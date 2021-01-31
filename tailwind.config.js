@@ -5,15 +5,21 @@ module.exports = {
     extend: {
       height: {
         "playlist-small": "80px",
-        "playlist-medium": "230px",
+        "playlist-medium": "300px",
+        "playlist-large": "480px",
       },
       width: {
-        "playlist-medium": "600px",
+        "playlist-medium": "300px",
+        "playlist-large": "480px",
+        "art-small": "200px",
+        "art-medium": "300px",
+        "art-large": "480px",
       },
     },
   },
   variants: {
+    transitionProperty: ["responsive", "motion-safe", "motion-reduce"],
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };

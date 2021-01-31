@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import App from "./App.vue";
 import Home from "./views/Home.vue";
 import Music from "./views/Music.vue";
+import Terminal from "./views/Terminal.vue";
 import "./index.css";
 
 const routes = [
@@ -13,6 +14,10 @@ const routes = [
   {
     path: "/music",
     component: Music,
+  },
+  {
+    path: "/terminal",
+    component: Terminal,
   },
 ];
 

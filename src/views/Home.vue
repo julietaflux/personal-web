@@ -1,13 +1,13 @@
 <template>
-  <div class="m-auto text-center">
+  <div class="m-auto text-center md:mx-36 select-none">
     <p class="text-xl font-semibold">This is Jules</p>
     <div class="my-5">
-      <p>
+      <p class="mb-2">
         I am a health nut, nature bound and notoriously good at self-discipline.
         I tend to process things in logical rather than emotional ways and like
         to categorize information.
       </p>
-      <p>
+      <p class="mb-2">
         I make a lot of playlists and my hobbies include debugging, walking long
         distances, drinking a lot of water and being friends with non-human
         animals. I live according to a combination between
@@ -25,27 +25,31 @@
       </p>
     </div>
     <div class="mt-5 mb-10">
-      <ul class="flex justify-center">
+      <ul
+        class="flex flex-col md:flex-row items-center mb-5 justify-center cursor-pointer"
+      >
         <li v-for="link in socialLinks" v-bind:key="link.text">
           <a :href="link.href" target="_blank" rel="noopener noreferrer">
-            <span class="mx-2 text-sm font-bold">
+            <div class="flex mx-3 my-2 md:my-0 text-sm font-bold">
+              <component v-bind:is="link.iconComponent"></component>
               {{ link.text }}
-            </span>
+            </div>
           </a>
         </li>
       </ul>
-      <ul class="flex justify-center">
+      <ul class="flex justify-center cursor-pointer">
         <li v-for="link in proyectsLinks" v-bind:key="link.text">
           <a :href="link.href" target="_blank" rel="noopener noreferrer">
-            <span class="mx-2 text-sm font-bold">
+            <div class="flex mx-3 text-sm font-bold">
+              <component v-bind:is="link.iconComponent"></component>
               {{ link.text }}
-            </span>
+            </div>
           </a>
         </li>
       </ul>
     </div>
     <p class="text-xs">
-      PSST! Check the console.
+      PSSST! Check the console.
     </p>
   </div>
 </template>
@@ -53,9 +57,23 @@
 <script>
 import socialLinks from "../data/socialLinks";
 import proyectsLinks from "../data/proyectsLinks";
+import IconCap from "../components/icons/cap";
+import IconChart from "../components/icons/chart";
+import IconSparks from "../components/icons/sparks";
+import IconMail from "../components/icons/mail";
+import IconCode from "../components/icons/code";
+import IconSquares from "../components/icons/squares";
 
 export default {
   name: "Intro",
+  components: {
+    IconCap,
+    IconChart,
+    IconSparks,
+    IconMail,
+    IconCode,
+    IconSquares,
+  },
   data: () => ({
     socialLinks: socialLinks,
     proyectsLinks: proyectsLinks,
