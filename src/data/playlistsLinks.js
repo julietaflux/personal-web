@@ -32,7 +32,7 @@ const playlists = [
       "https://open.spotify.com/playlist/1g04SeS25BkXg5PK6bYXfk?si=dyG5ecMXTOS28LR9Z8SaWg",
     image: `f1.png`,
     description: "No description available yet.",
-    tags: ["disco", "historical", "various artists"],
+    tags: ["Personal selection", "mood"],
     artists:
       "The Wallflowers, 10cc, The Cure, Interpol, Eric Clapton and more.",
   },
@@ -44,7 +44,7 @@ const playlists = [
       "https://open.spotify.com/playlist/2f7hHTbvT6dIdul1xySP0O?si=qs7w3F_NRaaC7CIZ4NJDsw",
     image: "f2.png",
     description: "No description available yet.",
-    tags: ["disco", "historical", "various artists"],
+    tags: ["Personal selection", "mood"],
     artists:
       "Hozier, Blonder, alt-J, Royal Blood, Seinabo Sey, Interpol and more.",
   },
