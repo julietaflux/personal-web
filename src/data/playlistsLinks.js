@@ -46,7 +46,7 @@ const playlists = [
     description: "No description available yet.",
     tags: ["disco", "historical", "various artists"],
     artists:
-      "Hozier, Blonder, alt-J, Royal Blood, Seinabo Say, Interpol and more.",
+      "Hozier, Blonder, alt-J, Royal Blood, Seinabo Sey, Interpol and more.",
   },
   {
     title: "Disco And Sexuality Vol. I",
