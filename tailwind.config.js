@@ -16,6 +16,12 @@ module.exports = {
         "art-large": "480px",
       },
     },
+    backgroundColor: (theme) => ({
+      ...theme("colors"),
+      primary: "#171717",
+      secondary: "#ffed4a",
+      danger: "#e3342f",
+    }),
   },
   variants: {
     transitionProperty: ["responsive", "motion-safe", "motion-reduce"],

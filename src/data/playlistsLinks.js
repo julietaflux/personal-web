@@ -1,11 +1,11 @@
 const playlists = [
   {
-    title: "Koirat Eivät Käytä Housuja (Dogs don't wear pants)",
-    hue: true,
+    title: "Koirat Eivät Käytä Housuja",
+    hue: 90,
     url: "https://open.spotify.com/embed/playlist/6by3fNYSlqCrRVU0F5O9As",
     publicUrl:
       "https://open.spotify.com/playlist/6by3fNYSlqCrRVU0F5O9As?si=lt5uBtkeQrqYsbkhGB602A",
-    image: "ddwp.png",
+    image: "ddwp1.png",
     description:
       "Years after the death of his wife, Juha struggles with sadness and regret. But he will find comfort in Mona, a lover who is as eager to punish Juha as he wishes to be punished. Everything ends up getting out of control, since no one knows how far they are willing to go.",
     tags: ["various artists", "movie inspired", "soundtrack"],
@@ -13,44 +13,44 @@ const playlists = [
   },
   {
     title: "Climax",
-    hue: false,
+    hue: 20,
     url: "https://open.spotify.com/embed/playlist/2AJb4MlPMtUOENuiYDR7Gn",
     publicUrl:
       "https://open.spotify.com/playlist/2AJb4MlPMtUOENuiYDR7Gn?si=1SxbgeW2RsSk26jPOSkI1g",
-    image: "climax.png",
+    image: "climax1.png",
     description:
       "Climax, Gaspar Noé's first French-language film since Irréversible, a woozy, pyschological-horror story about a dance troupe who drink sangria spiked with LSD. The film premiered at Cannes, and should receive a release in the US later in 2018.",
     tags: ["various artists", "movie inspired", "soundtrack"],
     artists:
-      "Gary Numan, Cerrone, Patrick Hernandez, M/A/A/R/S, Lil' Louis and more",
+      "Gary Numan, Cerrone, Patrick Hernandez, M/A/A/R/S, Lil' Louis and more.",
   },
   {
     title: "Fucking Vol. I",
-    hue: true,
+    hue: 90,
     url: "https://open.spotify.com/embed/playlist/1g04SeS25BkXg5PK6bYXfk",
     publicUrl:
       "https://open.spotify.com/playlist/1g04SeS25BkXg5PK6bYXfk?si=dyG5ecMXTOS28LR9Z8SaWg",
-    image: `f1.png`,
+    image: `f11.png`,
     description: "No description available yet.",
-    tags: ["Personal selection", "mood"],
+    tags: ["personal selection", "mood"],
     artists:
       "The Wallflowers, 10cc, The Cure, Interpol, Eric Clapton and more.",
   },
   {
     title: "Fucking Vol. II",
-    hue: false,
+    hue: 20,
     url: "https://open.spotify.com/embed/playlist/2f7hHTbvT6dIdul1xySP0O",
     publicUrl:
       "https://open.spotify.com/playlist/2f7hHTbvT6dIdul1xySP0O?si=qs7w3F_NRaaC7CIZ4NJDsw",
-    image: "f2.png",
+    image: "f21.png",
     description: "No description available yet.",
-    tags: ["Personal selection", "mood"],
+    tags: ["personal selection", "mood"],
     artists:
       "Hozier, Blonder, alt-J, Royal Blood, Seinabo Sey, Interpol and more.",
   },
   {
     title: "Disco And Sexuality Vol. I",
-    hue: true,
+    hue: 90,
     url: "https://open.spotify.com/embed/playlist/1zyjHx7G88qpY4BE7ue1Bh",
     publicUrl:
       "https://open.spotify.com/playlist/1zyjHx7G88qpY4BE7ue1Bh?si=8hYcNwu-S9iPiUEsQkBbXw",
@@ -62,7 +62,7 @@ const playlists = [
   },
   {
     title: "Disco And Sexuality Vol. II",
-    hue: true,
+    hue: 90,
     url: "https://open.spotify.com/embed/playlist/1EJW0CyF3jRMoNpn6Egfw0",
     publicUrl:
       "https://open.spotify.com/playlist/1EJW0CyF3jRMoNpn6Egfw0?si=pnrv38UTRaqyhaxsjPNeBA",
@@ -73,7 +73,7 @@ const playlists = [
   },
   {
     title: "Disco And Sexuality Vol. III",
-    hue: true,
+    hue: 90,
     url: "https://open.spotify.com/embed/playlist/6427piCsVDQW9l2oHjGUkf",
     publicUrl:
       "https://open.spotify.com/playlist/6427piCsVDQW9l2oHjGUkf?si=FCNtChlMQYyDUe8F62XQPQ",
@@ -84,7 +84,7 @@ const playlists = [
   },
   {
     title: "Disco Foundations Vol. I",
-    hue: true,
+    hue: 90,
     url: "https://open.spotify.com/embed/playlist/1CLo5s8knReFSppDRzUoLr",
     publicUrl: "",
     image: "noart.png",
@@ -96,7 +96,7 @@ const playlists = [
   },
   {
     title: "Disco Foundations Vol. II",
-    hue: true,
+    hue: 90,
     url: "https://open.spotify.com/embed/playlist/5BwqpO0NVI9WsLJwltRu2v",
     publicUrl: "",
     image: "noart.png",
@@ -107,7 +107,7 @@ const playlists = [
   },
   {
     title: "Disco Foundations Vol. III",
-    hue: true,
+    hue: 90,
     url: "https://open.spotify.com/embed/playlist/2qQBht8sHyHgGm2Lyr4at4",
     publicUrl: "",
     image: "noart.png",
@@ -118,7 +118,7 @@ const playlists = [
   },
   {
     title: "Disco Foundations Vol. IV",
-    hue: true,
+    hue: 90,
     url: "https://open.spotify.com/embed/playlist/6Q1kqM30KWrArmvVG5YKS4",
     publicUrl: "",
     image: "noart.png",
@@ -130,7 +130,7 @@ const playlists = [
   },
   {
     title: "Classics Introduction",
-    hue: true,
+    hue: 90,
     url: "https://open.spotify.com/embed/playlist/171hWInefgudTXZMMZO8La",
     publicUrl:
       "https://open.spotify.com/playlist/171hWInefgudTXZMMZO8La?si=DtXT2pw6SruUfTDoFwZqOA",
@@ -142,97 +142,97 @@ const playlists = [
   },
   {
     title: "Beethoven & Rachmaninov",
-    hue: true,
+    hue: 90,
     url: "https://open.spotify.com/embed/playlist/7FabrukRR6fjnoiSzwSIoc",
     publicUrl: "",
-    image: "bar.png",
+    image: "bar1.png",
     description:
       "Beethoven's piano is a true orchestra, with its extreme dynamics and textures, humor and darkness, unconcern and tension. Rachmaninov's piano music takes full advantage of the large and opulent sounds of the modern piano and contains rich emotional overtones.",
     tags: ["classical", "various artists"],
-    artists: "Ludwing van Beethoven, Sergei Rachmaninoff",
+    artists: "Ludwing van Beethoven and Sergei Rachmaninoff.",
   },
   {
     title: "Sibelius & Bartók",
-    hue: true,
+    hue: 90,
     url: "https://open.spotify.com/embed/playlist/41oO7FexR6Op6qhcSe2I83",
     publicUrl: "",
-    image: "sab.png",
+    image: "sab1.png",
     description: "No description available yet.",
     tags: ["classical", "various artists"],
-    artists: "Jean Sibelius, Béla Bartók",
+    artists: "Jean Sibelius and Béla Bartók.",
   },
   {
     title: "Alceste: Fuck Rococó",
-    hue: false,
+    hue: 20,
     url: "https://open.spotify.com/embed/playlist/65KAV0aVjdxNp3AZ4CIuvV",
     publicUrl:
       "https://open.spotify.com/playlist/65KAV0aVjdxNp3AZ4CIuvV?si=KLb6Wue3S-uXkZnK7AeAvg",
-    image: "a.png",
+    image: "a1.png",
     description:
       "In the dedication of his opera Alceste (1769), Gluck advocated 'noble simplicity', condemning 'superfluous ornament' and saying that he had avoided 'bragging about difficulties at the cost of clarity.'",
     tags: ["classical", "various artists"],
-    artists: "Christoph Willibald Gluck",
+    artists: "Christoph Willibald Gluck.",
   },
   {
     title: "Dying",
-    hue: true,
+    hue: 90,
     url: "https://open.spotify.com/embed/playlist/48EZeHtofEB7yn9BU9PTdR",
     publicUrl: "",
-    image: "dy.png",
+    image: "dy1.png",
     description: "No description available yet.",
-    tags: ["Personal selection", "mood"],
+    tags: ["personal selection", "mood"],
     artists: "Modest Mouse, Aquilo, Covenant, LCD Soundsystem and more.",
   },
   {
     title: "Groove",
-    hue: true,
+    hue: 90,
     url: "https://open.spotify.com/embed/playlist/7AxOEM5DBBwhRb1wL5WdOo",
     publicUrl: "",
-    image: "g.png",
+    image: "g1.png",
     description: "No description available yet.",
-    tags: ["Personal selection", "mood"],
+    tags: ["personal selection", "mood"],
     artists: "Aphex Twin, Talk Talk, Leonard Cohen, Toe, R.E.M and more.",
   },
   {
     title: "Chilling",
-    hue: false,
+    hue: 20,
     url: "https://open.spotify.com/embed/playlist/6iJOVGsuubavqZ15xixo59",
     publicUrl: "",
-    image: "ch.png",
+    image: "ch1.png",
     description: "No description available yet.",
-    tags: ["Personal selection", "mood"],
+    tags: ["personal selection", "mood"],
     artists: "Interpol, David Bowie, THe Jam, Deerhunter, Pulp and more.",
   },
   {
     title: "Power",
-    hue: false,
+    hue: 20,
     url: "https://open.spotify.com/embed/playlist/4ieuodA30gN92TLqSL0qGf",
     publicUrl: "",
-    image: "power.png",
+    image: "power1.png",
     description: "No description available yet.",
-    tags: ["Personal selection", "mood"],
+    tags: ["personal selection", "mood"],
     artists: "Volveat, Kanye West, Arctic Monkeys, The Vines, Weezer and more.",
   },
   {
     title: "Pogo, etc",
-    hue: true,
+    hue: 90,
     url: "https://open.spotify.com/embed/playlist/4JgtzHV1nWJbvNKsV8yODR",
     publicUrl: "",
-    image: "pogo.png",
+    image: "pogo1.png",
     description: "No description available yet.",
-    tags: ["Personal selection", "mood"],
+    tags: ["personal selection", "mood"],
     artists:
       "MInor Threat, The Cramps, Descendents, The Dead Weather and more.",
   },
   {
     title: "Warm Up",
-    hue: true,
+    hue: 90,
     url: "https://open.spotify.com/embed/playlist/5Ucvfhxkd85q8wXTZVjOsH",
     publicUrl:
       "https://open.spotify.com/playlist/5Ucvfhxkd85q8wXTZVjOsH?si=vf-C5n75SiawkuKLMbsnSw",
-    image: "wu.png",
+    image: "wu1.png",
     description: "No description available yet.",
-    tags: ["Personal selection", "mood"],
+    tags: ["personal selection", "mood"],
     artists:
       "The Smashing Pumpkins, Silverchair, Soundgarden, Alice In Chains and more.",
   },

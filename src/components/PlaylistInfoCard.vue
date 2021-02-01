@@ -1,40 +1,42 @@
 <template>
   <div class="body-2 text-justify ">
-    <p class="font-semibold text-2xl select-none">{{ title }}</p>
+    <p class="font-medium text-2xl select-none fraunces">
+      {{ title }}
+    </p>
     <ul class="justify-center">
       <li class="my-3">
-        <span class="flex text-sm font-bold">
+        <span class="flex text-md font-bold">
           {{ artists }}
         </span>
       </li>
     </ul>
-    <p class="mt-2 mb-4 text-sm md:text-lg select-none">{{ description }}</p>
+    <p class="mt-2 mb-4 text-sm select-none">{{ description }}</p>
     <ul class="justify-center">
       <li class="mb-3">
-        <span
-          class="flex text-sm font-bold cursor-pointer"
+        <div
+          class="inline-flex text-sm font-medium cursor-pointer"
           @click="this.$emit('player')"
         >
           <IconPlay />
           Play preview
-        </span>
+        </div>
       </li>
       <li class="mb-3">
-        <span
-          class="flex text-sm font-bold cursor-pointer"
+        <div
+          class="inline-flex text-sm font-medium cursor-pointer"
           @click="this.$emit('art')"
         >
           <IconBolt />
           Album art
-        </span>
+        </div>
       </li>
 
       <li>
         <a :href="publicUrl" target="_blank" rel="noopener noreferrer">
-          <span class="flex text-sm font-bold cursor-pointer">
+          <div class="inline-flex text-sm font-medium cursor-pointer">
             <IconSpotify />
             Play on Spotify
-          </span>
+          </div>
         </a>
       </li>
     </ul>

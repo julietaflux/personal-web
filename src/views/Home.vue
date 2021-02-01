@@ -1,84 +1,82 @@
 <template>
-  <div class="m-auto text-center md:mx-36 select-none">
-    <p class="text-xl font-semibold">This is Jules</p>
-    <div class="my-5">
-      <p class="mb-2">
-        I am a health nut, nature bound and notoriously good at self-discipline.
-        I tend to process things in logical rather than emotional ways and like
-        to categorize information.
-      </p>
-      <p class="mb-2">
-        I make a lot of playlists and my hobbies include debugging, walking long
-        distances, drinking a lot of water and being friends with non-human
-        animals. I live according to a combination between
-        <span class="font-semibold">Buddhism</span> and
-        <span class="font-semibold">Modern Stoicism</span> values and like to
-        walk my path along with people who respect the four cardinal virtues.
-      </p>
-      <p>
-        I study <span class="font-semibold">Art Criticism</span> and I am a
-        software developer and IT as well, my main goal is to make this a better
-        world and improve human and non human animals's life quality through my
-        actions impact, so please contact me
-        <span class="font-semibold">only</span> if you really feel we can
-        potentiate each other and make the world a better place.
-      </p>
-    </div>
-    <div class="mt-5 mb-10">
-      <ul
-        class="flex flex-col md:flex-row items-center mb-5 justify-center cursor-pointer"
+  <div class="flex flex-col min-h-screen">
+    <ul class="flex justify-center text-sm my-3">
+      <li v-for="link in socialLinks" v-bind:key="link.text">
+        <a :href="link.href" target="_blank" rel="noopener noreferrer">
+          <span class="cursor-pointer flex mx-3 text-md font-medium">
+            {{ link.text }}
+          </span>
+        </a>
+      </li>
+    </ul>
+
+    <div class="m-auto text-center md:mx-36 select-none">
+      <p
+        @click="toggleIntro"
+        :class="intro ? 'text-3xl' : 'text-6xl'"
+        class=" font-medium fraunces"
       >
-        <li v-for="link in socialLinks" v-bind:key="link.text">
-          <a :href="link.href" target="_blank" rel="noopener noreferrer">
-            <div class="flex mx-3 my-2 md:my-0 text-sm font-bold">
-              <component v-bind:is="link.iconComponent"></component>
-              {{ link.text }}
-            </div>
-          </a>
-        </li>
-      </ul>
-      <ul class="flex justify-center cursor-pointer">
-        <li v-for="link in proyectsLinks" v-bind:key="link.text">
-          <a :href="link.href" target="_blank" rel="noopener noreferrer">
-            <div class="flex mx-3 text-sm font-bold">
-              <component v-bind:is="link.iconComponent"></component>
-              {{ link.text }}
-            </div>
-          </a>
-        </li>
-      </ul>
+        Hi there, I'm Julieta
+      </p>
+      <div class="my-5 text-md" v-if="intro">
+        <p class="mb-2">
+          I am a health nut, nature bound and notoriously good at
+          self-discipline. I tend to process things in logical rather than
+          emotional ways and like to categorize information.
+        </p>
+        <p class="mb-2">
+          I make a ton of playlists and some of hobbies include debugging,
+          drawing, walking long distances, drinking a lot of water and being
+          friends with non-human animals. I live according to a combination
+          between
+          <span class="font-semibold fraunces">Buddhism</span> and
+          <span class="font-semibold fraunces">Modern Stoicism</span> values and
+          like to walk my path along with people who respect the four cardinal
+          virtues.
+        </p>
+        <p>
+          I study <span class="font-semibold fraunces">Art Criticism</span> and
+          I am a software developer and IT, my main goal is to make this a
+          better world and improve human and non human animals's life quality,
+          so please contact me
+          <span class="font-semibold fraunces">only</span> if you really feel we
+          can potentiate each other and make the world a better place.
+        </p>
+      </div>
     </div>
-    <p class="text-xs">
-      PSSST! Check the console.
-    </p>
+
+    <ul class="flex justify-center text-sm my-3">
+      <li v-for="link in proyectsLinks" v-bind:key="link.text">
+        <a :href="link.href" target="_blank" rel="noopener noreferrer">
+          <span class="cursor-pointer flex mx-3 text-sm font-medium">
+            {{ link.text }}
+          </span>
+        </a>
+      </li>
+    </ul>
   </div>
 </template>
 
 <script>
 import socialLinks from "../data/socialLinks";
 import proyectsLinks from "../data/proyectsLinks";
-import IconCap from "../components/icons/cap";
-import IconChart from "../components/icons/chart";
-import IconSparks from "../components/icons/sparks";
-import IconMail from "../components/icons/mail";
-import IconCode from "../components/icons/code";
-import IconSquares from "../components/icons/squares";
 
 export default {
   name: "Intro",
-  components: {
-    IconCap,
-    IconChart,
-    IconSparks,
-    IconMail,
-    IconCode,
-    IconSquares,
-  },
+  components: {},
   data: () => ({
+    intro: false,
     socialLinks: socialLinks,
     proyectsLinks: proyectsLinks,
   }),
   methods: {
+    toggleIntro() {
+      this.intro = !this.intro;
+      console.log("lala");
+    },
+    scroll() {
+      console.log("PANDORO");
+    },
     Skills(
       languajes,
       dataBases,
@@ -139,10 +137,13 @@ export default {
     },
   },
   mounted() {
-    console.clear();
-    this.Greet();
+    //console.clear();
+    //this.Greet();
+    setTimeout(() => (this.intro = true), 4000);
+  },
+  unmounted() {
+    console.log("unmounted...");
+    window.removeEventListener("scroll", this.scroll);
   },
 };
 </script>
-
-<style lang="sass"></style>

@@ -1,6 +1,6 @@
 <template>
-  <div class="block md:grid grid-cols-2 gap-10 my-10 md:mt-15 pt-5 md:pt-10">
-    <div class="mt-15 md:mt-0">
+  <div class="block md:grid grid-cols-2 gap-10">
+    <div>
       <PlaylistInfoCard
         :title="playlist.title"
         :description="playlist.description"
@@ -15,7 +15,7 @@
       <div class="w-full md:w-auto">
         <img
           v-if="this.showArt"
-          :class="{ hue: playlist.hue }"
+          :class="`hue-${playlist.hue}`"
           class="p-2 md:p-0 md:w-art-medium lg:w-art-large"
           :src="`/art/${playlist.image}`"
         />
@@ -62,7 +62,11 @@ export default {
 </script>
 
 <style lang="scss">
-.hue {
+.hue-10 {
+  filter: hue-rotate(10deg);
+}
+
+.hue-90 {
   filter: hue-rotate(80deg);
 }
 </style>
