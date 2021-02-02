@@ -25,10 +25,13 @@
           emotional ways and like to categorize information.
         </p>
         <p class="mb-2">
-          I make a ton of playlists and some of hobbies include debugging,
-          drawing, walking long distances, drinking a lot of water and being
-          friends with non-human animals. I live according to a combination
-          between
+          I make a ton of
+          <router-link to="/music"
+            ><span class="underline">playlists</span></router-link
+          >
+          and some of hobbies include debugging, drawing, walking long
+          distances, drinking a lot of water and being friends with non-human
+          animals. I live according to a combination between
           <span class="font-semibold fraunces">Buddhism</span> and
           <span class="font-semibold fraunces">Modern Stoicism</span> values and
           like to walk my path along with people who respect the four cardinal
@@ -138,8 +141,8 @@ export default {
     },
   },
   mounted() {
-    //console.clear();
-    //this.Greet();
+    console.clear();
+    this.Greet();
     setTimeout(() => (this.intro = true), 4000);
   },
   unmounted() {

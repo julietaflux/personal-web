@@ -84,10 +84,10 @@ const playlists = [
   },
   {
     title: "Disco Foundations Vol. I",
-    hue: 90,
+    hue: 10,
     url: "https://open.spotify.com/embed/playlist/1CLo5s8knReFSppDRzUoLr",
     publicUrl: "",
-    image: "noart.png",
+    image: "disco.png",
     description:
       "From the first jukeboxes, 3-level basements, sedative clubs, hotels and ex-churches almost exclusively for gays, blacks and Latinos, the synthetic and ready-made music, the euro-trash, the bump and orgies immersed in percussive psychedelic, the dazzling brilliance of exotic fantasy that also leaded the way of Soul, between nights full of poppers, quaalude and seconal, utopia and hell, join me to witness the two-headed beast of groove rising.",
     tags: ["disco", "historical", "various artists"],
@@ -99,7 +99,7 @@ const playlists = [
     hue: 90,
     url: "https://open.spotify.com/embed/playlist/5BwqpO0NVI9WsLJwltRu2v",
     publicUrl: "",
-    image: "noart.png",
+    image: "disco.png",
     description:
       "Come to the loft and have some fun, tension between gay/hetero, black/black have never been so insidious. A líbrenla experiment of glamorous decadence is about to dance us to the edge. Lose yourself to the penetrant, slow groove and join the nature rhythm following the slip cueing masters making the track. ",
     tags: ["disco", "historical", "various artists"],
@@ -107,10 +107,10 @@ const playlists = [
   },
   {
     title: "Disco Foundations Vol. III",
-    hue: 90,
+    hue: 40,
     url: "https://open.spotify.com/embed/playlist/2qQBht8sHyHgGm2Lyr4at4",
     publicUrl: "",
-    image: "noart.png",
+    image: "disco.png",
     description:
       "The art of mixing, the 12’’ inches singles, white versions of the black songs, did you know it took eighty hours to record the first mix tape of 45’? sStretched grooves were fixed with the only purpose of keep people on the dance floor all nite long. ",
     tags: ["disco", "historical", "various artists"],
@@ -118,10 +118,10 @@ const playlists = [
   },
   {
     title: "Disco Foundations Vol. IV",
-    hue: 90,
+    hue: -40,
     url: "https://open.spotify.com/embed/playlist/6Q1kqM30KWrArmvVG5YKS4",
     publicUrl: "",
-    image: "noart.png",
+    image: "disco.png",
     description:
       "From ghost cities, claustrophobic discotheque rooms, the northern soul remarks the start of the next 40 years of European music and pop scene’s golden mafia. Fast and refreshing chords were now hiding the saddest lyrics with full or trebles guitars, reggae chanks, and Motown like rhythm.",
     tags: ["disco", "historical", "various artists"],
@@ -130,11 +130,11 @@ const playlists = [
   },
   {
     title: "Classics Introduction",
-    hue: 90,
+    hue: 10,
     url: "https://open.spotify.com/embed/playlist/171hWInefgudTXZMMZO8La",
     publicUrl:
       "https://open.spotify.com/playlist/171hWInefgudTXZMMZO8La?si=DtXT2pw6SruUfTDoFwZqOA",
-    image: "noart.png",
+    image: "ci.png",
     description: "No description available yet.",
     tags: ["classical", "various artists"],
     artists:
