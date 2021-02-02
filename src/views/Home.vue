@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col min-h-screen">
-    <ul class="flex justify-center text-sm my-3">
+    <ul class="flex justify-center text-sm my-5">
       <li v-for="link in socialLinks" v-bind:key="link.text">
         <a :href="link.href" target="_blank" rel="noopener noreferrer">
           <span class="cursor-pointer flex mx-3 text-md font-medium">
@@ -10,15 +10,15 @@
       </li>
     </ul>
 
-    <div class="m-auto text-center md:mx-36 select-none">
+    <div class="my-auto text-center md:mx-36 select-none">
       <p
         @click="toggleIntro"
-        :class="intro ? 'hidden' : 'text-6xl'"
+        :class="intro ? 'hidden' : 'text-3xl'"
         class=" font-medium fraunces"
       >
         Hi there, I'm Julieta
       </p>
-      <div class="my-5 text-sm" v-if="intro">
+      <div class="my-5 text-md" v-if="intro">
         <p class="mb-2">
           I am a health nut, nature bound and notoriously good at
           self-discipline. I tend to process things in logical rather than
@@ -49,7 +49,7 @@
       </div>
     </div>
 
-    <ul class="flex justify-center text-sm my-3">
+    <ul class="flex justify-center text-sm my-5">
       <li v-for="link in proyectsLinks" v-bind:key="link.text">
         <a :href="link.href" target="_blank" rel="noopener noreferrer">
           <span class="cursor-pointer flex mx-3 text-sm font-medium">
