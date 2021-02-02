@@ -36,11 +36,12 @@
         </p>
         <p>
           I study <span class="font-semibold fraunces">Art Criticism</span> and
-          I am a software developer and IT, my main goal is to make this a
-          better world and improve human and non human animals's life quality,
-          so please contact me
-          <span class="font-semibold fraunces">only</span> if you really feel we
-          can potentiate each other and make the world a better place.
+          I am a
+          <span class="font-semibold fraunces">software developer and IT</span>,
+          I want to make this a better world and improve human and non human
+          animals's life quality, please contact me
+          <span class="font-semibold fraunces">only</span> if you feel we can
+          make it togheter.
         </p>
       </div>
     </div>
