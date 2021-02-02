@@ -13,12 +13,12 @@
     <div class="m-auto text-center md:mx-36 select-none">
       <p
         @click="toggleIntro"
-        :class="intro ? 'text-3xl' : 'text-6xl'"
+        :class="intro ? 'hidden' : 'text-6xl'"
         class=" font-medium fraunces"
       >
         Hi there, I'm Julieta
       </p>
-      <div class="my-5 text-md" v-if="intro">
+      <div class="my-5 text-sm" v-if="intro">
         <p class="mb-2">
           I am a health nut, nature bound and notoriously good at
           self-discipline. I tend to process things in logical rather than
