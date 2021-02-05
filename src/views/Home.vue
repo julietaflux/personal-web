@@ -44,7 +44,7 @@
           I want to make this a better world and improve human and non human
           animals's life quality, please contact me
           <span class="font-semibold fraunces">only</span> if you feel we can
-          make it togheter.
+          make it together.
         </p>
       </div>
     </div>
