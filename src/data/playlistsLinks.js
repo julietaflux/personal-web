@@ -49,12 +49,45 @@ const playlists = [
       "Hozier, Blonder, alt-J, Royal Blood, Seinabo Sey, Interpol and more.",
   },
   {
-    title: "Disco And Sexuality Vol. I",
+    title: "The Disco Machine Vol. I",
+    hue: 10,
+    url: "https://open.spotify.com/embed/playlist/5jOtMVFsyh8iAvTWd8Qoea",
+    publicUrl:
+      "https://open.spotify.com/playlist/5jOtMVFsyh8iAvTWd8Qoea?si=abiERxWvRkSEEQgoRLuCCA",
+    image: "tdm1.png",
+    description: "No description available yet.",
+    tags: ["disco", "historical", "various artists"],
+    artists: "Placeholder.",
+  },
+  {
+    title: "The Disco Machine Vol. II",
+    hue: 40,
+    url: "https://open.spotify.com/embed/playlist/6CdNX05KHRM39oi5BpGA33",
+    publicUrl:
+      "https://open.spotify.com/playlist/6CdNX05KHRM39oi5BpGA33?si=1lxgxb-fSPWSv27bxS1w8Q",
+    image: "tdm1.png",
+    description: "No description available yet.",
+    tags: ["disco", "historical", "various artists"],
+    artists: "Placeholder.",
+  },
+  {
+    title: "The Disco Machine Vol. III",
     hue: 90,
+    url: "https://open.spotify.com/embed/playlist/3T9FSgj8D3p6P37ZrCaZbJ",
+    publicUrl:
+      "https://open.spotify.com/playlist/3T9FSgj8D3p6P37ZrCaZbJ?si=E41t0415TKmpTpmjfm3DiA",
+    image: "tdm1.png",
+    description: "No description available yet.",
+    tags: ["disco", "historical", "various artists"],
+    artists: "Placeholder.",
+  },
+  {
+    title: "Disco And Sexuality Vol. I",
+    hue: 10,
     url: "https://open.spotify.com/embed/playlist/1zyjHx7G88qpY4BE7ue1Bh",
     publicUrl:
       "https://open.spotify.com/playlist/1zyjHx7G88qpY4BE7ue1Bh?si=8hYcNwu-S9iPiUEsQkBbXw",
-    image: "noart.png",
+    image: "das1.png",
     description: "No description available yet.",
     tags: ["disco", "historical", "various artists"],
     artists:
@@ -62,22 +95,22 @@ const playlists = [
   },
   {
     title: "Disco And Sexuality Vol. II",
-    hue: 90,
+    hue: -40,
     url: "https://open.spotify.com/embed/playlist/1EJW0CyF3jRMoNpn6Egfw0",
     publicUrl:
       "https://open.spotify.com/playlist/1EJW0CyF3jRMoNpn6Egfw0?si=pnrv38UTRaqyhaxsjPNeBA",
-    image: "noart.png",
+    image: "das1.png",
     description: "No description available yet.",
     tags: ["disco", "historical", "various artists"],
     artists: "Loose Joints, Donna Summer, Sylvester, NYC Peech Boys and more.",
   },
   {
     title: "Disco And Sexuality Vol. III",
-    hue: 90,
+    hue: 40,
     url: "https://open.spotify.com/embed/playlist/6427piCsVDQW9l2oHjGUkf",
     publicUrl:
       "https://open.spotify.com/playlist/6427piCsVDQW9l2oHjGUkf?si=FCNtChlMQYyDUe8F62XQPQ",
-    image: "noart.png",
+    image: "das1.png",
     description: "No description available yet.",
     tags: ["disco", "historical", "various artists"],
     artists: "Dan Hartman, Miquel Brown, Sandi Sheldon, Sylvester and more.",
@@ -199,7 +232,8 @@ const playlists = [
     url: "https://open.spotify.com/embed/playlist/6iJOVGsuubavqZ15xixo59",
     publicUrl: "",
     image: "ch1.png",
-    description: "No description available yet.",
+    description:
+      "Hanging with friends or laying on the sofa. To me, calm comes in the form of taking a walk down Lavalle. The murmur still nimbly escapes into your headphones and settles on your head, you can hear the arbolitos in the distance, hands in pockets or wrapped with your favorite scarf, just dodging the modern people. Simpler times, thoughtfully fixed for you, on a silver plate.",
     tags: ["personal selection", "mood"],
     artists: "Interpol, David Bowie, THe Jam, Deerhunter, Pulp and more.",
   },
@@ -222,7 +256,7 @@ const playlists = [
     description: "No description available yet.",
     tags: ["personal selection", "mood"],
     artists:
-      "MInor Threat, The Cramps, Descendents, The Dead Weather and more.",
+      "Minor Threat, The Cramps, Descendents, The Dead Weather and more.",
   },
   {
     title: "Warm Up",
@@ -235,6 +269,116 @@ const playlists = [
     tags: ["personal selection", "mood"],
     artists:
       "The Smashing Pumpkins, Silverchair, Soundgarden, Alice In Chains and more.",
+  },
+  {
+    title: "Trippy",
+    hue: 90,
+    url: "https://open.spotify.com/embed/playlist/3sDtRMCwl6QKdKHSlWY0lW",
+    publicUrl:
+      "https://open.spotify.com/playlist/3sDtRMCwl6QKdKHSlWY0lW?si=3b0v2npTQ269EZZ6DInx6g",
+    image: "noart.png",
+    description: "No description available",
+    tags: ["personal selection", "mood"],
+    artists: "",
+  },
+  {
+    title: "Kinda Pop",
+    hue: 90,
+    url: "https://open.spotify.com/embed/playlist/23WBNvd8EhuIX2NRGzjSUM",
+    publicUrl:
+      "https://open.spotify.com/playlist/23WBNvd8EhuIX2NRGzjSUM?si=d3wSrPQRR_SAQJQScu1rRQ",
+    image: "noart.png",
+    description: "No description available",
+    tags: ["personal selection", "mood"],
+    artists: "",
+  },
+  {
+    title: "Friday",
+    hue: 90,
+    url: "https://open.spotify.com/embed/",
+    publicUrl:
+      "https://open.spotify.com/playlist/369LnpduevJllboebu2TIf?si=klBc30yaT3Wdz2KLnHutZA",
+    image: "noart.png",
+    description: "No description available",
+    tags: ["personal selection", "mood"],
+    artists: "",
+  },
+  {
+    title: "Rap & Trap",
+    hue: 90,
+    url: "https://open.spotify.com/embed/playlist/3ZgTczyKJJhN8gNuqhzP93",
+    publicUrl:
+      "https://open.spotify.com/playlist/3ZgTczyKJJhN8gNuqhzP93?si=UXEO2Ur0QeuuhQV4g5hJGQ",
+    image: "noart.png",
+    description: "No description available",
+    tags: ["personal selection", "mood"],
+    artists: "",
+  },
+  {
+    title: "Falling",
+    hue: 90,
+    url: "https://open.spotify.com/embed/playlist/0SfqCWQb9s7IDJlvJi2i4S",
+    publicUrl:
+      "https://open.spotify.com/playlist/0SfqCWQb9s7IDJlvJi2i4S?si=gcZ07f83R_-Tv13nGNOByQ",
+    image: "noart.png",
+    description: "No description available",
+    tags: ["personal selection", "mood"],
+    artists: "",
+  },
+  {
+    title: "Get Ready",
+    hue: 90,
+    url: "https://open.spotify.com/embed/playlist/3PPEeeIrbi8Ah4TIXg0eGn",
+    publicUrl:
+      "https://open.spotify.com/playlist/3PPEeeIrbi8Ah4TIXg0eGn?si=pKo88NFPQ-6guZuJT8t2Ag",
+    image: "noart.png",
+    description: "No description available",
+    tags: ["personal selection", "mood"],
+    artists: "",
+  },
+  {
+    title: "Already Ready",
+    hue: 90,
+    url: "https://open.spotify.com/embed/playlist/4luIFDQyfhVmOlRLUeDO1K",
+    publicUrl:
+      "https://open.spotify.com/playlist/4luIFDQyfhVmOlRLUeDO1K?si=OKDRqjWEQs-FasBIIruuug",
+    image: "noart.png",
+    description: "No description available",
+    tags: ["personal selection", "mood"],
+    artists: "",
+  },
+  {
+    title: "Noir",
+    hue: 90,
+    url: "https://open.spotify.com/embed/playlist/6hwzSfEFhGa16RalrOvjnP",
+    publicUrl:
+      "https://open.spotify.com/playlist/6hwzSfEFhGa16RalrOvjnP?si=GHS78zCsQfyqEDNpB1QlUg",
+    image: "noart.png",
+    description: "No description available",
+    tags: ["personal selection", "mood"],
+    artists: "",
+  },
+  {
+    title: "Creating",
+    hue: 90,
+    url: "https://open.spotify.com/embed/playlist/1ReHFxj1C6DmP3qaPCnAOQ",
+    publicUrl:
+      "https://open.spotify.com/playlist/1ReHFxj1C6DmP3qaPCnAOQ?si=nXR672bgQi6knCMsA3qtAA",
+    image: "noart.png",
+    description: "No description available",
+    tags: ["personal selection", "mood"],
+    artists: "",
+  },
+  {
+    title: "On Acid",
+    hue: 90,
+    url: "https://open.spotify.com/embed/playlist/6UAuL06ZCNZfPpsnivThMH",
+    publicUrl:
+      "https://open.spotify.com/playlist/6UAuL06ZCNZfPpsnivThMH?si=UxJ_9JM9QSS8rqIwHMEElw",
+    image: "noart.png",
+    description: "No description available",
+    tags: ["personal selection", "mood"],
+    artists: "",
   },
 ];
 

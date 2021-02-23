@@ -63,6 +63,9 @@ export default {
 
 <style lang="scss">
 .hue-10 {
+  filter: hue-rotate(10deg);
+}
+.hue--10 {
   filter: hue-rotate(-10deg);
 }
 .hue-20 {
