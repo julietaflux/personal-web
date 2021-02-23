@@ -145,7 +145,7 @@ const playlists = [
     publicUrl: "",
     image: "disco.png",
     description:
-      "The art of mixing, the 12’’ inches singles, white versions of the black songs, did you know it took eighty hours to record the first mix tape of 45’? sStretched grooves were fixed with the only purpose of keep people on the dance floor all nite long. ",
+      "The art of mixing, the 12’’ inches singles, white versions of the black songs, did you know it took eighty hours to record the first mix tape of 45’? Stretched grooves were fixed with the only purpose of keep people on the dance floor all nite long. ",
     tags: ["disco", "historical", "various artists"],
     artists: "Ann Peebles, Syl Johnson, The Detroit Emeralds and more.",
   },
@@ -190,7 +190,8 @@ const playlists = [
     url: "https://open.spotify.com/embed/playlist/41oO7FexR6Op6qhcSe2I83",
     publicUrl: "",
     image: "sab1.png",
-    description: "No description available yet.",
+    description:
+      "Jean Sibelius and Béla Bartók, two composers from the fringe of Europe, had to create space for themselves in the midst of Austro-German dominance of turn-of-the-century music. Both encountered in the hitherto unknown folk music of their respective countries an 'Other' that enabled them to develop an idiom different from the mainstream but equally coherent. Sibelius became in Finland a national hero due to his patriotic music from the turn-of-the-century. As a consequence, his figure grew into mountainous dimensions, and many of his successors were doomed to live under his shadow. After World War II a new beginning was needed. - Ilkka Oramo",
     tags: ["classical", "various artists"],
     artists: "Jean Sibelius and Béla Bartók.",
   },
