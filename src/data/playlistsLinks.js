@@ -55,7 +55,8 @@ const playlists = [
     publicUrl:
       "https://open.spotify.com/playlist/5jOtMVFsyh8iAvTWd8Qoea?si=abiERxWvRkSEEQgoRLuCCA",
     image: "tdm1.png",
-    description: "No description available yet.",
+    description:
+      "Thanks to the insertion of spaces between the beats, the clones and robots would appear between us, music and rhythm made by machines. An invitation to renounce our human feelings. The rhythm of the railroad would have marked for life the city living, celebrating the industrialization that, despite everything, was bringing people closer. A new trance ritual is born, the rhythmic and eternal loop of electric toys that would implant a logical order in the album with rhythmic, sharp guitars and rebounds. The pulse above all things.",
     tags: ["disco", "historical", "various artists"],
     artists: "Placeholder.",
   },
@@ -66,7 +67,8 @@ const playlists = [
     publicUrl:
       "https://open.spotify.com/playlist/6CdNX05KHRM39oi5BpGA33?si=1lxgxb-fSPWSv27bxS1w8Q",
     image: "tdm1.png",
-    description: "No description available yet.",
+    description:
+      "Metronomic beat, bass lines as bridges between segments. hi-tech, hi-sex, low-passion, music for steopford wives. the rhythm machine and the click bring us a happy and stylized music that reflected the optimism of the EU before the end of the continental wars. Forsey, who would not only introduce the Krautrock, was also driving the Munich machine, the HINRG automaton would forever separate the record from the funk. The foundations of my personal front-runner: Eurodisco. The m",
     tags: ["disco", "historical", "various artists"],
     artists: "Placeholder.",
   },
@@ -77,7 +79,8 @@ const playlists = [
     publicUrl:
       "https://open.spotify.com/playlist/3T9FSgj8D3p6P37ZrCaZbJ?si=E41t0415TKmpTpmjfm3DiA",
     image: "tdm1.png",
-    description: "No description available yet.",
+    description:
+      "The machine appears to need as much social interaction as us, the humans. Giorgio Moroder would introduce us to the darkest side of disco music, the alienated one. Synthesizer-based albums were no news, the futuristic strangeness, the implications of the machine on the body were already undeniable, we can not unsee them. Detachment, and anonymous sex, would increase the identification with the machine and the liberation of the gay man from the nature that rejected him as an aberration. Let's be experimental protagonists of this adrenaline rush.",
     tags: ["disco", "historical", "various artists"],
     artists: "Placeholder.",
   },
@@ -88,7 +91,8 @@ const playlists = [
     publicUrl:
       "https://open.spotify.com/playlist/1zyjHx7G88qpY4BE7ue1Bh?si=8hYcNwu-S9iPiUEsQkBbXw",
     image: "das1.png",
-    description: "No description available yet.",
+    description:
+      "The most legendary bathhouses embodied Caligula's classicism, carnal depravity would be allied with the discovery of the contraceptive pill, leading to the explosion of sex in the mainstream and the wife swaps peak.  This carnal, wild and unbridled energy would collide with the AIDS crisis, but would heedlessly constitute the Pride Soundtrack, the lindy would be danced out of the closet and into the streets.  The mirrors on the walls now multiply the clones. Come and join the hot and wet flesh, share the trip to ecstasy vibrating until dawn.",
     tags: ["disco", "historical", "various artists"],
     artists:
       "Beete Midler, The Equals, Bill Withers, Billy Sha-Rae, Marvin Gaye and more.",
@@ -100,7 +104,8 @@ const playlists = [
     publicUrl:
       "https://open.spotify.com/playlist/1EJW0CyF3jRMoNpn6Egfw0?si=pnrv38UTRaqyhaxsjPNeBA",
     image: "das1.png",
-    description: "No description available yet.",
+    description:
+      "An overwhelming ecstasy, moans, and whispers would finally kick out decades of lovey-dovey lyrics, Sylvester's falsetto, shrieks, and diva makeup, an auditory fantasy reaches us from the tape with its happy and positive sound.",
     tags: ["disco", "historical", "various artists"],
     artists: "Loose Joints, Donna Summer, Sylvester, NYC Peech Boys and more.",
   },
@@ -111,7 +116,8 @@ const playlists = [
     publicUrl:
       "https://open.spotify.com/playlist/6427piCsVDQW9l2oHjGUkf?si=FCNtChlMQYyDUe8F62XQPQ",
     image: "das1.png",
-    description: "No description available yet.",
+    description:
+      "Quivers, the beat of a rampant bass drum chases us with robotic pressure, electrifying vertigo, and ambient sound cancellation, crescendo, and then explosion. A tour through the UK charts and hot music on balconies and basements after this party you are going to need a refreshing walk through Central Park.",
     tags: ["disco", "historical", "various artists"],
     artists: "Dan Hartman, Miquel Brown, Sandi Sheldon, Sylvester and more.",
   },
@@ -134,7 +140,7 @@ const playlists = [
     publicUrl: "",
     image: "disco.png",
     description:
-      "Come to the loft and have some fun, tension between gay/hetero, black/black have never been so insidious. A líbrenla experiment of glamorous decadence is about to dance us to the edge. Lose yourself to the penetrant, slow groove and join the nature rhythm following the slip cueing masters making the track. ",
+      "Come to the loft and have some fun, tension between gay/hetero, black/black have never been so insidious. A líbrenla experiment of glamorous decadence is about to dance us to the edge. Lose yourself to the penetrant, slow groove and join the nature rhythm following the slip cueing masters making the track.",
     tags: ["disco", "historical", "various artists"],
     artists: "War, Mandré, Exuma, Mickey Hart, Eddie Kendricks and more.",
   },
@@ -145,7 +151,7 @@ const playlists = [
     publicUrl: "",
     image: "disco.png",
     description:
-      "The art of mixing, the 12’’ inches singles, white versions of the black songs, did you know it took eighty hours to record the first mix tape of 45’? Stretched grooves were fixed with the only purpose of keep people on the dance floor all nite long. ",
+      "The art of mixing, the 12’’ inches singles, white versions of the black songs, did you know it took eighty hours to record the first mix tape of 45’? Stretched grooves were fixed with the only purpose of keep people on the dance floor all nite long.",
     tags: ["disco", "historical", "various artists"],
     artists: "Ann Peebles, Syl Johnson, The Detroit Emeralds and more.",
   },
