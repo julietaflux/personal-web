@@ -56,7 +56,7 @@ const playlists = [
       "https://open.spotify.com/playlist/5jOtMVFsyh8iAvTWd8Qoea?si=abiERxWvRkSEEQgoRLuCCA",
     image: "tdm1.png",
     description:
-      "Thanks to the insertion of spaces between the beats, the clones and robots would appear between us, music and rhythm made by machines. An invitation to renounce our human feelings. The rhythm of the railroad would have marked for life the city living, celebrating the industrialization that, despite everything, was bringing people closer. A new trance ritual is born, the rhythmic and eternal loop of electric toys that would implant a logical order in the album with rhythmic, sharp guitars and rebounds. The pulse above all things.",
+      "Thanks to the insertion of spaces between the beats, the clones and robots would appear among us, music and rhythm made by machines, plus an invitation to disclaim our human feelings. The rhythm of the railroad would have marked for life the city living, celebrating the industrialization that, despite everything, was bringing people closer. A new trance ritual is born, the rhythmic and eternal loop of electric toys that would implant a logical order in the album with rhythmic, sharp guitars and rebounds. The pulse above all things.",
     tags: ["disco", "historical", "various artists"],
     artists: "Placeholder.",
   },
