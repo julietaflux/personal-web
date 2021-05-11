@@ -29,7 +29,7 @@
           <router-link to="/music"
             ><span class="underline">playlists</span></router-link
           >
-          and some of hobbies include debugging, drawing, walking long
+          and some of my hobbies include debugging, drawing, walking long
           distances, drinking a lot of water and being friends with non-human
           animals. I live according to a combination between
           <span class="font-semibold fraunces">Buddhism</span> and
